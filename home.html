@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Persona Project</title>
+    <link rel="stylesheet" href="index.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body>
+    <!-- TODO: put your HTML code here! -->
+    <!--NavBar-->
+    <div class = "topnav">
+      <a class = "home">home</a>
+      <div class = "otherlinks">
+        <a class = "work">work</a>
+        <a class = "about">about</a>
+        <a class = "resume">resume</a>
+      </div>
+    </div>
+
+    <!--Main Part-->
+    <div class="main">
+      <div class = "content">
+        <img class = "headerimg" src="CakesofParadiseBakeryImg/LogoBlack.png"/>
+        <div class = "title">
+            <h1>Cakes of Paradise</h1>
+            <h3>A Responsive Redesign</h3>
+        </div>
+        <div class = "textsect">
+          <h4>Introduction</h4>
+          <p>This project is focused on designing and building a new responsive webpage for an existing website. Though this project, I worked on identifying and analyzing flaws in the existing webpage in terms of usability, learnability, memorability, and accessibility. With the problems identified, I then created low and high fidelity prototypes and a visual guide, and built a responsive webpage.</p>
+          <p
+          style = 
+          "color: #ED5819;">
+          The website I chose to redesign was the <a style = 
+          "color: #ED5819;" href="https://www.cakesofparadisebakery.com/">Cakes of Paradise Bakery website</a>, a Hawaiian bakery in the Seattle Area.</p>
+          <h5 class = "greytitle">The Original Site</h5>
+          <img src="CakesofParadiseBakeryImg/Untitled.png" alt="Original Website">
+        </div>
+        <div class="textsect">
+          <h4>Identifying Issues</h4>
+          <p>In looking at the current Cakes of Paradise Bakery website, I focused on the homepage in particular. To identify the current issues with the website, I looked at three areas:<br>
+            - usability<br>
+            - learnability<br>
+            - memorabiilty
+            </p>
+
+            <div class = "row">
+              <div class = "responsebox">
+                <h6 class = "color" 
+                  >Usability</h6>
+                <p >- Needs to scroll down to see store hours <br>
+                  - Chunk of text at the top covers different information, but has no clear hierarchy - Not responsive; text size does not change with screen size<br>
+                  - No directions on Home Page<br>
+                  - No informtional hierarchy between normal hours and holiday hours</p>
+              </div>
+              <div class = "responsebox">
+                <h6 class = "color" 
+                 style = 
+                 >Learnability</h6>
+                <p>- Fairly learnable due to simplicity; homepage displays information and links to other pages<br>
+                  - Information displayed on screen is not in a very intuitive order: Note, then picture, then hours</p>
+              </div>
+              <div class = "responsebox">
+                <h6 class = "color" 
+                 style = 
+                 >Memorabiilty</h6>
+                <p>- No cohesive theme to the website: lacks memorable design<br>
+                  - Difficult to identify titles: chunks of text lack informational hierarchy<br>
+                  - Could benefit from a color palette and more images</p>
+              </div>
+            </div><br>
+            <h6 class = "color" 
+                 style = 
+                 >Accessibility</h6>
+            <p>I also gauged the accessibility of a website using WebAIM Wave and a Screen Reader, coming up with the following issues:<br>
+              - The images on the page lack alt text, making them inaccessible for a Screen Reader<br>
+              - There is a lot of text at the top of the page, so it takes a long time to reach the hours at the bottom.<br>
+              - The color contrast of the logo is not very strong,  making it difficult to read.<br><br>
+         
+         With these issues identified, I could start on designing the new webpage to address them.</p>
+            </div>
+          
+
+          <div class="textsect">
+            <h4>Low Fidelity Wire Frames</h4>
+            <p>To address the previously identified problems, I create wireframes for a responsive new homepage using Balsamiq:<br>
+            </p>
+            <img src="CakesofParadiseBakeryImg/AnnotatedLowWF.png" alt="Low-Fidelity WireFrames">
+          </div>
+          <br>
+
+          <div class="textsect">
+            <h4>Visual Guide</h4>
+            <p>Before making the final design, I created a visual guide for the website, focusing on color palette, typography, interactive components, and icons.</p>
+            <img src="CakesofParadiseBakeryImg/VisualGuide.png" alt="Visual Guide" style="width:70%;">
+            <p>I chose the color palette to match the floral, tropical theme that the physical store had. I also created a new logo, and chose typefaces to give the page a more elegant and simplistic appearance.</p>
+
+          </div>
+          <div class="textsect">
+            <h4>High Fidelity Prototypes</h4>
+            <p>After developing the low fidelity prototypes and the visual guide, I was able to create the final design of the website.</p>
+            <h5 class = "greytitle">Annotated Final Design</h5> <br>
+            <img src="CakesofParadiseBakeryImg/AnnotatedFinal.png" alt="High Fidelity Designs" >
+            <h5 class = "greytitle">Unannotated Final Design</h5> <br>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); width:100%; height: 95vh;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKLhXRxRl4k2i8XtX0t5Qzh%2FCakes-of-Paradise-Bakery%3Fnode-id%3D89%253A1%26scaling%3Dscale-down-width" allowfullscreen></iframe>
+          </div><br>
+
+          <div class="textsect">
+            <h4>Responsive Webpage</h4>
+            <p>Based upon the annotations from the high fidelity design, I created a responsive website in HTML/CSS/Javascript.
+            <br>Click <a style = 
+            "color: #ED5819;" href="https://agile-coast-61943.herokuapp.com/">here</a> to access the site! <br>Website Link: https://agile-coast-61943.herokuapp.com/</p>
+
+          </div>
+
+          <div class="textsect">
+            <h4>Reflection</h4>
+            <p>Throughout this project, my biggest takeaway was how usability in design has such a big impact, even for a simple information-displaying webpage. Looking at the order and visual design of the text and components plays such a large role in usability, especially in how we process and compartmentalize the information based on how it is separated. I also gained insight into how to ensure a webpage is accessibile, and the tools that play a role in doing so.
+              <br>
+              The development of the website was a little trickier, but gave me insight into different displays for containers and how they function.</p>
+          </div>
+          <br>
+          <br>
+          <br>
+
+      </div>
+    </div>
+  </body>
+</html>
